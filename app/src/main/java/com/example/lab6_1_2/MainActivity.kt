@@ -48,6 +48,8 @@ class MainActivity : AppCompatActivity() {
                 textViewSeconds.post {
                     textViewSeconds.text = getString(R.string.seconds, seconds++)
                 }
+                Log.d("Executor", "is executes")
+                Thread.sleep(1000)
             }
         }, null)
 
