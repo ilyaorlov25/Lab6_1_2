@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Lab6_1_2</string>
+    <string name="seconds">Seconds:, %d</string>
+</resources>
